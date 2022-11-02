@@ -1,0 +1,13 @@
+assets/images/*.svg
+
+!assets/images/switzerland-bg.svg
+!assets/images/cameroon-bg.svg
+
+!assets/images/uruguay-bg.svg
+!assets/images/south korea-bg.svg
+
+!assets/images/portugal-bg.svg
+!assets/images/ghana-bg.svg
+
+!assets/images/brazil-bg.svg
+!assets/images/serbia-bg.svg

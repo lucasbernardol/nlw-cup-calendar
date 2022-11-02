@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR" translate="yes">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/main.styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/brazil-bg.svg"
+      type="image/x-icon"
+    />
+
+    <title>Calendário da Copa 2022 | Quinta-feira</title>
+
+    <style type="text/css">
+      .icon {
+        width: 48px;
+        height: 48px;
+      }
+    </style>
+  </head>
+  <body data-id="body">
+    <!-- 
+      Nota de estudos: 
+        Identificadores do tipo "ID" criam uma propriedade global, ou seja, que 
+        pertence ao objeto window, essa propriedade armazena a referência
+        de um elemento HTML na DOM.
+        Em geral, por questões pessoais eu evito esse tipo de comportamento, 
+        na minha visão não é interessante modificar o objeto global/Window quando 
+        falomos de JavaScript.
+        Por outro lado, atributos personalizados que iniciam com "data-" fazem
+        mais sentido.
+
+        <p id="hello">Hello world</p>
+
+        // JavaScript/console
+        'hello' in window => true;
+        Object.prototype.toString.call(window.hello) => '[object HTMLParagraphElement]'
+        const { hello } = window;
+        hello.style.color = "#452932"
+      
+    -->
+    <div class="root" data-id="root">
+      <div class="layout" data-id="layout"></div>
+    </div>
+    <script type="text/javascript" src="./scripts/index.script.js"></script>
+  </body>
+</html>
